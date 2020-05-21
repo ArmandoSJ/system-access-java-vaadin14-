@@ -1,0 +1,24 @@
+package mx.edu.itroque.views;
+
+import com.vaadin.flow.component.html.H1;
+import com.vaadin.flow.component.orderedlayout.VerticalLayout;
+import com.vaadin.flow.router.Route;
+import com.vaadin.flow.router.RouteAlias;
+import mx.edu.itroque.MainView;
+
+@Route(value = "", layout = MainView.class)
+@RouteAlias("Home")
+public class Home extends VerticalLayout {
+
+    public static final String HOME_VIEW = "Home";
+    private H1 vTitle = new H1("Welcome to access system...");
+    public Home(){
+        inicializar();
+        cargaListener();
+    }
+    private void inicializar(){
+        add(vTitle);
+    }
+    private void cargaListener(){}
+
+}
