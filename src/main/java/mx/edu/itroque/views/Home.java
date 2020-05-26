@@ -6,8 +6,8 @@ import com.vaadin.flow.router.Route;
 import com.vaadin.flow.router.RouteAlias;
 import mx.edu.itroque.MainView;
 
-@Route(value = "", layout = MainView.class)
-@RouteAlias("Home")
+@Route(value = "sistema-de-acceso", layout = MainView.class)
+@RouteAlias(value = "", layout = MainView.class)
 public class Home extends VerticalLayout {
 
     public static final String HOME_VIEW = "Home";
