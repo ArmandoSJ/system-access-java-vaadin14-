@@ -1,10 +1,6 @@
-# system-access-java-vaadin14-
-Sistema de acceso utilizando el lenguaje java y el framework vaadin en su version 14
-=======
-# Skeleton Starter for Vaadin
+# system-access-java-vaadin14
+Sistema de acceso utilizando el lenguaje java y el framework vaadin version 14
 
-This project can be used as a starting point to create your own Vaadin application.
-It has the necessary dependencies and files to help you get started.
 
 The best way to use it is via [vaadin.com/start](https://vaadin.com/start) - you can get only the necessary parts and choose the package naming you want to use.
 There is also a [getting started tutorial](https://vaadin.com/tutorials/getting-started-with-flow) based on this project.
